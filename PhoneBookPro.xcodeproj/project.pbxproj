@@ -17,6 +17,8 @@
 		FF51DE8B2B24319200867E49 /* PhoneBookProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF51DE8A2B24319200867E49 /* PhoneBookProTests.swift */; };
 		FF51DE952B24319200867E49 /* PhoneBookProUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF51DE942B24319200867E49 /* PhoneBookProUITests.swift */; };
 		FF51DE972B24319200867E49 /* PhoneBookProUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF51DE962B24319200867E49 /* PhoneBookProUITestsLaunchTests.swift */; };
+		FF51DEA42B24328600867E49 /* EditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF51DEA32B24328600867E49 /* EditorViewController.swift */; };
+		FF51DEA62B2433F000867E49 /* OpenEditorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF51DEA52B2433F000867E49 /* OpenEditorDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		FF51DE902B24319200867E49 /* PhoneBookProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoneBookProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF51DE942B24319200867E49 /* PhoneBookProUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneBookProUITests.swift; sourceTree = "<group>"; };
 		FF51DE962B24319200867E49 /* PhoneBookProUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneBookProUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FF51DEA32B24328600867E49 /* EditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorViewController.swift; sourceTree = "<group>"; };
+		FF51DEA52B2433F000867E49 /* OpenEditorDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenEditorDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,11 +108,13 @@
 				FF51DE702B24318D00867E49 /* AppDelegate.swift */,
 				FF51DE722B24318D00867E49 /* SceneDelegate.swift */,
 				FF51DE742B24318D00867E49 /* ViewController.swift */,
+				FF51DEA32B24328600867E49 /* EditorViewController.swift */,
 				FF51DE762B24318D00867E49 /* Main.storyboard */,
 				FF51DE7C2B24319200867E49 /* Assets.xcassets */,
 				FF51DE7E2B24319200867E49 /* LaunchScreen.storyboard */,
 				FF51DE812B24319200867E49 /* Info.plist */,
 				FF51DE792B24318E00867E49 /* PhoneBookPro.xcdatamodeld */,
+				FF51DEA52B2433F000867E49 /* OpenEditorDelegate.swift */,
 			);
 			path = PhoneBookPro;
 			sourceTree = "<group>";
@@ -262,8 +268,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF51DE752B24318D00867E49 /* ViewController.swift in Sources */,
+				FF51DEA62B2433F000867E49 /* OpenEditorDelegate.swift in Sources */,
 				FF51DE712B24318D00867E49 /* AppDelegate.swift in Sources */,
 				FF51DE732B24318D00867E49 /* SceneDelegate.swift in Sources */,
+				FF51DEA42B24328600867E49 /* EditorViewController.swift in Sources */,
 				FF51DE7B2B24318E00867E49 /* PhoneBookPro.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
